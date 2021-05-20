@@ -9986,6 +9986,12 @@ img {
   min-height: 100vh;
 }
 
+.main__icon {
+  color: #FFF;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
 .container_ {
   background-color: black;
 }
