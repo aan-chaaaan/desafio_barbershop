@@ -1,0 +1,17 @@
+.container__content {
+    background-color: $platinum;
+}
+
+.container_image-center {
+    justify-content: center;
+}
+
+//section card
+
+.card_ {
+    &text {
+        color: $link-uno;
+        font-family: $roboto;
+        font-size: $large;
+    }
+}

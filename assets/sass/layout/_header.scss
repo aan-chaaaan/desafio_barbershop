@@ -1,0 +1,23 @@
+.main {
+    background-image: url("../images/post-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+.main__title {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    padding-right: 20vw;
+    padding-left: 20vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: white;
+    font-size: $large-xx;
+    font-family: $playfair;
+    font-weight: $bold;
+    min-height: 100vh;
+}
