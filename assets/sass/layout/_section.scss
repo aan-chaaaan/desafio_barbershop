@@ -8,6 +8,10 @@
 
 //section card
 
+.container__card {
+    border-color: $white !important;
+}
+
 .section__card-image--round {
     border-radius: 50%;
 }

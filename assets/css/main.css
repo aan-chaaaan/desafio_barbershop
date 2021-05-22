@@ -10029,6 +10029,10 @@ img {
   justify-content: center;
 }
 
+.container__card {
+  border-color: #FFF !important;
+}
+
 .section__card-image--round {
   border-radius: 50%;
 }
