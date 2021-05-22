@@ -9940,44 +9940,32 @@ body {
 
 img {
   max-width: 100%;
+  max-height: max-content;
 }
 
-.container__nav_section {
-  width: 100%;
-  height: 5em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+.container_navigation {
   background-color: #121619;
-  display: inline-block;
 }
 
-.image__logo {
-  width: 8em;
-  padding-left: 4em;
+.nav-item-blog {
+  padding-top: 8px;
 }
 
-.navigation_list {
-  float: right;
-  padding-right: 4em;
-}
-
-.link_list-w {
-  text-decoration: none;
-  color: #FFF;
-  padding-right: 1em;
-}
-.link_list-w:hover {
-  color: #FFF;
-  text-decoration: none;
-}
-.link_list-p {
+.nav-link-color {
   text-decoration: none;
   color: #ECBCBA;
-  padding-right: 1em;
 }
-.link_list-p:hover {
-  color: #ECBCBA;
+.nav-link-color:hover {
   text-decoration: none;
+  color: #ECBCBA;
+}
+
+.navbar-image {
+  width: 79px;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif, 400;
 }
 
 .main {
@@ -10001,7 +9989,7 @@ img {
   color: white;
   font-size: 10vh;
   font-family: "Playfair Display", serif;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .main__icon {
@@ -10063,7 +10051,7 @@ img {
 .card__title {
   text-align: start;
   font-family: "Playfair Display", serif;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 30px;
   color: #121619;
   padding-top: 1em;
