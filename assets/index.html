@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbershop</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
-    <nav class="container_navigation navbar navbar-expand-lg navbar-dark bg-dark px-5">
+    <!-- <nav class="container_navigation navbar navbar-expand-lg navbar-dark bg-dark px-5">
         <div class="container-fluid">
             <img class="navbar-image" src="./images/logo.png" alt="logo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,6 +43,19 @@
                 </ul>
             </div>
         </div>
+    </nav> -->
+
+    <nav class="nav__section">
+        <div class="container__nav_section">
+            <img class="image__logo" src="./images/logo.png" alt="image-logo">
+            <ul class="navigation_list">
+                <a class="link_list-w" href="#">Nosotros</a>
+                <a class="link_list-w" href="#">Trabajos</a>
+                <a class="link_list-p" href="#">Blog</a>
+                <a class="link_list-w" href="#">Horas</a>
+                <a class="link_list-w" href="#">Contacto</a>
+            </ul>
+        </div>
     </nav>
 
     <header class="main">
@@ -53,7 +66,7 @@
             <i class="fas fa-angle-double-down fa-4x"></i>
         </div>
     </header>
-    <article class="article px-5">
+    <article class="px-5">
         <h5 class="article__title px-5 py-5">12 de abril de 2018</h5>
         <div class="article__text pt-2 pb-4">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quisquam voluptates laboriosam, cum
@@ -82,48 +95,53 @@
             <br>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam necessitatibus placeat rerum! Aperiam
                 quas laborum pariatur, necessitatibus magnam quidem ducimus illum ipsum quia?.
-                <span class="article__text-link"> Minus debitis quis</span>,
-                in autem obcaecati animi!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora eius,
-                provident illum molestias reiciendis qui molestiae itaque laudantium adipisci dignissimos minus magni
-                mollitia deserunt veritatis nobis pariatur quisquam, totam impedit?. Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Aliquid dignissimos cumque porro omnis architecto tenetur modi sunt ad
-                dolor voluptates eos suscipit inventore, sit voluptatibus laboriosam provident, explicabo pariatur quam.
+                , <a href="#" class="article__text-link">Minus debitis quis</a> in autem obcaecati animi!. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit. Tempora eius, provident illum molestias reiciendis qui
+                molestiae itaque laudantium adipisci dignissimos minus magni mollitia deserunt veritatis nobis pariatur
+                quisquam, totam impedit?. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid dignissimos
+                cumque porro omnis architecto tenetur modi sunt ad dolor voluptates eos suscipit inventore, sit
+                voluptatibus laboriosam provident, explicabo pariatur quam.
             </p>
         </div>
-        <div class="article__button">
-            <button type="button" class="btn btn-secondary btn-sm article__button-small">Compartir</button>
-            <button type="button" class="btn btn-secondary btn-md article__button-medium">Comentar en Twitter</button>
+        <div class="container__button">
+            <button class="button__small">Compartir</button>
+            <button class="button__medium">Comentar en Twitter</button>
         </div>
     </article>
     <hr>
-    <section class="section px-5 py-4">
-        <div class="section__card card border-light mb-3">
+    <section class="container px-5 py-4">
+        <div class="container__card card border-light mb-3">
             <div class="row g-0">
                 <div class="section__card-image col-sm-12 col-md-2">
-                    <img src="./images/naomi-thai.png" alt="image-2">
+                    <img class="section__card-image--round" src="./images/naomi-thai.png" alt="image-2">
                 </div>
-                <div class="section__card text-center col-sm-12 col-md-2">
-                    <h5 class="card_title pt-5">NAOMI THAI</h5>
-                    <p class="card_text mb-0">@Naothai</p>
-                    <p class="card_text">depelos.com</p>
+                <div class="section__card col-sm-12 text-left col-md-3">
+                    <h5 class="card__title col-md-12 ">Naomi Thai</h5>
+                    <div class="card__links pl-3">
+                        <a href="#" class="card__text-link mb-0">@Naothai</a>
+                        <a href="#" class="card__text-link ">depelos.com</a>
+                    </div>
                 </div>
-                <div class="section__card-text col-sm-12 col-md-8">
-                    <p class="card_text-description">This is a wider card with supporting text below as a natural
+                <div class="section__card-text col-sm-12 col-md-7">
+                    <p class="card__text-description">This is a wider card with supporting text below as a natural
                         lead-in to
                         additional content. This content is a little bit longer.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container__content container-fluid p-5">
-            <nav aria-label="Page navigation example">
-                <ul class=" pagination justify-content-center">
-                    <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+    <section class="container__section">
+        <div class="section__navigation container-fluid p-5">
+            <nav aria-label="Page navigation" class="navigation__list">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link text-secondary" href="#">Anterior</a>
+                    </li>
+                    <li class="page-item"><a class="page-link text-dark" href="#">1</a></li>
+                    <li class="page-item active"><a class="page-link bg-secondary border-secondary text-light"
+                            href="#">2</a>
+                    </li>
+                    <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link text-dark" href="#">Siguiente</a></li>
                 </ul>
             </nav>
         </div>

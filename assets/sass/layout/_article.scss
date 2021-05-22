@@ -1,3 +1,14 @@
 .article__text-link {
-    color: $link-uno;
+    color: $spanish-pink;
+
+    &:hover {
+        color: $eerie-black;
+        text-decoration: none;
+
+    }
+
+    &:focus {
+        color: $platinum;
+        text-decoration: none;
+    }
 }

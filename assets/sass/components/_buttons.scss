@@ -1,0 +1,19 @@
+.button__small,
+.button__medium {
+    border-radius: 4em;
+    height: 3em;
+    background-color: $nickel;
+    color: $white;
+    border: $nickel;
+
+
+    &:hover {
+        background-color: $platinum;
+        border: $platinum;
+    }
+
+    &:focus {
+        background-color: $nickel;
+        outline-color: $platinum;
+    }
+}

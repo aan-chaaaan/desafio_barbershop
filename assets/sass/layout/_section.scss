@@ -1,4 +1,4 @@
-.container__content {
+.container__section {
     background-color: $platinum;
 }
 
@@ -8,10 +8,63 @@
 
 //section card
 
-.card_ {
+.section__card-image--round {
+    border-radius: 50%;
+}
+
+.card__ {
+
     &text {
-        color: $link-uno;
+        color: $spanish-pink;
         font-family: $roboto;
         font-size: $large;
+        font-weight: $light;
+    }
+
+    &text-description {
+        padding-top: 2em;
+        color: $raisin-black;
+        font-family: $roboto;
+        font-size: $medium;
+        font-weight: $light;
+        padding-left: 0;
     }
 }
+
+.card__title {
+    text-align: start;
+    font-family: $playfair;
+    font-weight: $bold;
+    font-size: $large-x;
+    color: $eerie-black;
+    padding-top: 1em;
+    padding-right: 0em;
+}
+
+.card__links {
+    text-align: start;
+}
+
+
+
+
+//links section
+
+.card__text-link {
+    color: $spanish-pink;
+    display: block;
+
+
+    &:hover {
+        color: $eerie-black;
+        text-decoration: none;
+
+    }
+
+    &:focus {
+        color: $platinum;
+        text-decoration: none;
+    }
+}
+
+//pagination section

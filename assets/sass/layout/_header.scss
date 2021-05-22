@@ -1,4 +1,6 @@
 .main {
+    width: fit-content;
+    height: auto;
     background-image: url("../images/post-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +9,7 @@
 
 
 .main__title {
-    padding-top: 20vh;
+    padding-top: 30vh;
     padding-bottom: 20vh;
     padding-right: 20vw;
     padding-left: 20vw;
@@ -19,7 +21,7 @@
     font-size: $large-xx;
     font-family: $playfair;
     font-weight: $bold;
-    min-height: 100vh;
+
 }
 
 .main__icon {
